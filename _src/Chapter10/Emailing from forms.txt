@@ -1,0 +1,33 @@
+<p class="error">[+validationmessage+]</p>
+
+<form id=”EnquireryForm”
+method="post" action="[~[*id*]~]" >
+
+   <fieldset>
+       <h3> Enquiry Form</h3>
+
+
+
+                Your name:
+       <p><input name="name" id="Name" class="text" type="text"
+                           eform="Your Name::1:" /></p></label>
+
+       Your Email Address:
+       <p><input name="email" id="Email" class="text" type="text"
+                    eform="Email Address:email:1" /></p> </label>
+
+       Subject:
+       <p><input name="subject" id="Subject" class="text" type="text"
+                                   eform="Subject::1" /></p> </label>
+
+       Enquiry:
+       <p><textarea name="enquiry" id="enquiry" eform=
+                  "Enquiry:textarea:1"></textarea></p>
+       </label>
+
+       <p><input type="submit" class="button" value="Enquire Now"
+                                                           /></p>
+
+   </fieldset>
+
+</form>

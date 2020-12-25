@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"> <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+ <head>
+  <base href="[(site_url)]"></base>
+  <title>Learning MODx</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-
+                                                        8859-1" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+ </head>
+ <body>
+  <div id="banner">
+   <h1>Learning MODx</h1>
+  </div>
+  <div id="wrapper">
+   <div id="container">
+    <div id="content">
+     <div id="col-1">
+      <h1>[*pagetitle*]</h1>
+      <br/>
+      [*#content*]
+     </div>
+     <div id="col-2" >
+      <div > [!WebLogin!] </div>
+     </div>
+    </div>
+   </div>
+   <div class="clearing"> </div>
+  </div> <!-- end of wrapper div -->
+  <div id="footer">It is fun and exciting to build websites with
+                                               MODx</div></body>
+</html>

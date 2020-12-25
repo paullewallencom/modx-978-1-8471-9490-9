@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"> <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <title>Learning MODx</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-
+                                                          8859-1" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div id="banner">
+      <h1>Learning MODx</h1>
+
+    </div>
+
+    <div id="wrapper">
+      <div id="container">
+        <div id="content">
+          <div id="col-1">
+
+<div id="menu">
+[!Wayfinder?startId=`0` &amp;level=`2` &amp;outerClass=`outer` &amp;innerClass='inner' &amp;lastClass=`last` &amp;firstClass=`first` &amp;hereClass=`active`!]
+</div>
+
+       <h1>[*pagetitle*]</h1>
+       <br/>
+<table>
+
+<tr> <td> Relationship: </td> <td> [*relationship*] </td> </tr>
+
+[+phx:if=`[*occupation*]`:is=``:then=``:else=`<tr> <td> Occupation:
+                          </td> <td>  [*occupation*] </td> </tr>`+]
+
+<tr> <td> Website: </td> <td>  [*website*] </td> </tr>
+
+</table>
+<br/>
+
+[*#content*]
+
+          </div>
+
+     <div id="col-2" >
+
+       <div > [!WebLogin!]  </div>
+
+              <div>
+                [!Ditto? &parents=`47` &tpl=`dittofrontpage`!]
+              </div>
+
+     </div>
+
+        </div>
+      </div> 
+      <div class="clearing"> </div>
+    </div> <!-- end of wrapper div -->
+    <div id="footer">It is fun and exciting to build websites with
+                                                        MODx</div>
+</body>
+</html>

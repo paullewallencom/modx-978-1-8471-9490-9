@@ -1,0 +1,4 @@
+create database learningMODx;
+grant usage on *.* to learniningMODx@localhost identified by
+                                           'learniningMODx';
+grant all privileges on learningMODx.* to learningMODx@localhost ;

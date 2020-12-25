@@ -1,0 +1,7 @@
+<?php
+$tpl = (isset($tpl))? $tpl : 'helloworld';
+$modx->setPlaceholder('message1', "Hello World!");
+$modx->setPlaceholder("message2","It is a beautiful day");
+$output = $modx->getChunk($tpl);
+return $output;
+?>

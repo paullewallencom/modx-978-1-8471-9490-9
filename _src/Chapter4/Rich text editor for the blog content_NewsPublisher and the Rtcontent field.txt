@@ -1,0 +1,2 @@
+[!NewsPublisher? &folder=`47` &makefolder=`1` &formtpl=`blogform`
+                                         &rtcontent=`tvblogRT` !]

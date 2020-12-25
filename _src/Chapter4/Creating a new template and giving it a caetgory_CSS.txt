@@ -1,0 +1,9 @@
+* { padding:2; margin:0; border:1; }
+body { margin:0 20px; background:#8CEC81; }
+#banner { background: #2BB81B; border-top:5px solid #8CEC81; border-bottom:5px solid #8CEC81; }
+#banner h1 { padding:10px; }
+#wrapper { background: #8CEC81; }
+#container { width: 100%; background: #2BB81B; float: left; }
+#content { background: #ffffff; height:600px; padding:10px; }
+#footer { background: #2BB81B; border-top:5px solid #8CEC81; border-bottom:5px solid #8CEC81; }
+.clearing { clear:both; height:0; }

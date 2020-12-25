@@ -1,0 +1,29 @@
+<div id="blogpage">
+<form action="[~[*id*]~]" method="post" name="NewsPublisher">
+ <table>
+  <h3> Blog Entry </h3>
+  <br />
+  <input name="NewsPublisherForm" type="hidden" value="on" />
+ </table>
+ <table>
+  <tbody>
+   <tr>
+    <td><label for="pagetitle">Title</label></td>
+    <td> <input id="pagetitle" name="pagetitle" size="40"
+                type="text" value="[+pagetitle+]" /></td>
+   </tr>
+   <tr>
+    <td><label for="introtext">Summary </label></td>
+    <td><textarea cols="50" name="introtext"
+      rows="5">[+introtext+]</textarea></td>
+   </tr>
+   <tr>
+    <td><label for="content">Content</label></td>
+    <td> <textarea cols="50" name="content"
+       rows="5">[+content+]</textarea></td>
+   </tr>
+  </tbody>
+ </table>
+ <input class="button" name="send" type="submit" value="Blog it!" />
+</form>
+</div>

@@ -1,0 +1,24 @@
+switch ($modx->Event->name) {
+   case "OnLoadWebDocument":
+       $modx->regClientCSS('assets/plugins/
+               codeprettify/prettify.css');
+       $modx->regClientCSS('assets/plugins/codeprettify/prettify-
+                                                    custom.css');
+       $modx->regClientStartupScript('manager/media/script/mootools/
+                                                      mootools.js');
+       $modx->regClientStartupScript('assets/plugins/codeprettify/
+                                                    prettify.js');
+       $jspp = '<script type="text/javascript">';
+       $jspp .= 'window.addEvent("domready", prettyPrint);';
+       $jspp .= '</script>';
+       $modx->regClientStartupScript($jspp);
+       break;
+
+   default:	// stop here
+       return;
+       break;
+}
+
+
+
+

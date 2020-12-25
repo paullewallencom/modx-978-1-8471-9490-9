@@ -1,0 +1,6 @@
+<?php
+$modx->setPlaceholder("message1", "Hello World!");
+$modx->setPlaceholder("message2","It is a beautiful day");
+return;
+?>
+

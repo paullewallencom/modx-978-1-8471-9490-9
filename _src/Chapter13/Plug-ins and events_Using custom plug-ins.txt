@@ -1,0 +1,6 @@
+<pre class="prettyprint">
+echo "This code is pretty printed by the new plugin";
+</pre>
+
+
+

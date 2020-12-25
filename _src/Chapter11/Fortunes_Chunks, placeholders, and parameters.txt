@@ -1,0 +1,19 @@
+<?php
+$tpl = (isset($tpl))? $tpl : 'fortunes';
+$res = $modx->db->select("*", $table_prefix."modx_fortunes"); //
+                            Fetch all the records from the table
+$count = $modx->db->getRecordCount( $res); // Get the total number of
+                                                              records
+$x = rand(0,$count-1); // Get a random number between 0 and record
+                                                             count
+$fortunes = $modx->db->makeArray($res); // Convert the recordset to
+                                                           an array
+$fortune = $fortunes[$x]; // Get the nth record where n is the random
+                                                               number
+$modx->setPlaceholder('fortunetext',$fortune["text"]);
+$modx->setPlaceholder('fortuneauthor',$fortune["author"]);
+$o = $modx->getChunk($tpl);
+return $o;
+?>
+
+

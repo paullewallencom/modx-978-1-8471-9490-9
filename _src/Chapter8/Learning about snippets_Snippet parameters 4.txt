@@ -1,0 +1,2 @@
+<b>[+form.edit:is=`1`:then=`Edit comment`:else=`Write a
+                                         comment`+]</b>

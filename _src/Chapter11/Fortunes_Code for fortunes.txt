@@ -1,0 +1,21 @@
+<?php
+$res = $modx->db->select("*", $table_prefix."modx_fortunes"); // Fetch all the records from the table
+$count = $modx->db->getRecordCount( $res); // Get the total number of records
+if($count==0)
+{
+return "There are no Fortunes";
+}
+$x = rand(0,$count-1); // Get a random number between 0 and record
+                                                             count
+$fortunes = $modx->db->makeArray($res); // Convert the recordset to
+                                                           an array
+$fortune = $fortunes[$x]; // Get the nth record where n is the random
+                                                               number
+$o = '<h3>Fortune</h3>';
+$o .= $fortune["text"]; 
+$o .= "<br>";
+$o .= $fortune['author'];
+return $o;
+?>
+
+

@@ -1,0 +1,9 @@
+HTML
+
+   <!-- WayFinder snippet call for breadcrumbs -->
+<a href="/" title="Home">Home</a> &raquo; [!Wayfinder? &startId=`0` &outerTpl=`BreadCrumbOuter` &rowTpl=`BreadCrumbRow` &activeParentRowTpl=`BreadCrumbActiveParentRow` &hereTpl=`BreadCrumbHere
+
+HTML
+
+   <!-- WayFinder snippet  call for menu ->
+[!Wayfinder?startId=`0` &level=`2` &outerClass=`outer` &innerClass='inner' &lastClass=`last` &firstClass=`first` &hereClass=`active`!]

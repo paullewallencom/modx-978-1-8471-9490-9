@@ -1,0 +1,6 @@
+Before Placeholder1 <br>
+[+message1+] <br>
+Before Placeholder2 <br>
+[+message2+]
+
+
